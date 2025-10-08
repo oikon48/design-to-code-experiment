@@ -1,44 +1,44 @@
 # Design to Code Experiment
 
-Figmaデザインをコードに変換する実験プロジェクトです。複数のツールとアプローチを使用して、デザインからの実装を比較検証しています。
+An experimental project to convert Figma designs into code. This project compares and validates implementations using multiple tools and approaches.
 
-## 概要
+## Overview
 
-このプロジェクトでは、Figmaのデザインノードを取得し、以下の3つの異なるツールを使用して実装を行っています：
+This project retrieves Figma design nodes and implements them using three different tools:
 
-- **Claude Code + MCP** - ClaudeとModel Context Protocolを活用した実装
-- **Codex + MCP** - CodexとMCPを組み合わせた実装
-- **Kombai** - Kombaiを使用した実装（準備中）
+- **Claude Code + MCP** - Implementation leveraging Claude and Model Context Protocol
+- **Codex + MCP** - Implementation combining Codex with MCP
+- **Kombai** - Implementation using Kombai (in preparation)
 
-## プロジェクト構成
+## Project Structure
 
 ```
 design-to-code-experiment/
-├── claude+mcp/          # Claude Code + MCP による実装
+├── claude+mcp/          # Claude Code + MCP implementation
 │   └── picto-portfolio/ # Next.js + React + Tailwind CSS
-├── codex+mcp/           # Codex + MCP による実装
+├── codex+mcp/           # Codex + MCP implementation
 │   └── app/             # Next.js + React
-├── kombai/              # Kombai による実装（準備中）
-└── codex+mcp-bk/        # バックアップ
+├── kombai/              # Kombai implementation (in preparation)
+└── codex+mcp-bk/        # Backup
 ```
 
-## 各実装について
+## Implementation Details
 
 ### Claude Code + MCP (`claude+mcp/picto-portfolio`)
 
-- **フレームワーク**: Next.js 15.1.4
+- **Framework**: Next.js 15.1.4
 - **UI**: React 19
-- **スタイリング**: Tailwind CSS
-- **言語**: TypeScript
-- **主な機能**:
-  - Hero セクション
-  - Portfolio セクション
-  - Blog セクション
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Main Features**:
+  - Hero section
+  - Portfolio section
+  - Blog section
   - Stats & Testimonials
-  - Contact フォーム
-  - その他複数のコンポーネント
+  - Contact form
+  - Multiple other components
 
-#### 起動方法
+#### Getting Started
 
 ```bash
 cd claude+mcp/picto-portfolio
@@ -48,17 +48,17 @@ npm run dev
 
 ### Codex + MCP (`codex+mcp`)
 
-- **フレームワーク**: Next.js 14.1.4
+- **Framework**: Next.js 14.1.4
 - **UI**: React 18
-- **言語**: TypeScript
-- **主な機能**:
+- **Language**: TypeScript
+- **Main Features**:
   - Header
-  - Hero セクション
-  - About セクション
-  - Services セクション
-  - Process セクション
+  - Hero section
+  - About section
+  - Services section
+  - Process section
 
-#### 起動方法
+#### Getting Started
 
 ```bash
 cd codex+mcp
@@ -68,22 +68,22 @@ npm run dev
 
 ### Kombai (`kombai`)
 
-準備中
+In preparation
 
-## 実験の目的
+## Experiment Objectives
 
-1. **精度の比較**: 各ツールがFigmaデザインをどの程度正確にコード化できるか
-2. **効率性の評価**: 実装にかかる時間とプロセスの違い
-3. **コード品質**: 生成されるコードの可読性、保守性、ベストプラクティスへの準拠
-4. **ワークフローの検証**: 各ツールの開発ワークフローの使いやすさ
+1. **Accuracy Comparison**: How accurately each tool can convert Figma designs into code
+2. **Efficiency Evaluation**: Differences in implementation time and process
+3. **Code Quality**: Readability, maintainability, and adherence to best practices of generated code
+4. **Workflow Validation**: Usability of each tool's development workflow
 
-## 技術スタック
+## Tech Stack
 
-- **フロントエンド**: React, Next.js
-- **スタイリング**: Tailwind CSS, CSS Modules
-- **言語**: TypeScript
-- **パッケージマネージャー**: npm
+- **Frontend**: React, Next.js
+- **Styling**: Tailwind CSS, CSS Modules
+- **Language**: TypeScript
+- **Package Manager**: npm
 
-## ライセンス
+## License
 
-実験用プロジェクトのため、私的利用のみを想定しています。
+This is an experimental project intended for private use only.
