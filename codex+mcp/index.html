@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brooklyn Gilbert — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Public+Sans:wght@400&family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header__inner">
+        <a class="logo" href="#home">
+          <span class="logo__icon" aria-hidden="true">B</span>
+          <span class="logo__label">Brooklyn</span>
+        </a>
+        <nav class="nav" id="siteNav" aria-label="Primary">
+          <a class="nav__link" href="#home">Home</a>
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#process">Process</a>
+          <a class="nav__link" href="#services">Services</a>
+          <a class="nav__link" href="#portfolio">Portfolio</a>
+          <a class="nav__link" href="#blog">Blog</a>
+          <button class="button button--primary" type="button">Contact</button>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-controls="siteNav" aria-expanded="false">
+          <span class="nav-toggle__bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title">Hello, I’m <span>Brooklyn Gilbert</span></h1>
+            <p class="hero__subtitle">
+              I’m a Freelance <strong>UI/UX Designer</strong> and <strong>Developer</strong> based in London, England.
+              I build immersive digital products through thoughtful design and carefully crafted code.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#contact">Say hello!</a>
+              <a class="button button--ghost" href="#portfolio">View projects</a>
+            </div>
+            <dl class="stats" aria-label="Experience highlights">
+              <div class="stats__item">
+                <dt>15 Y.</dt>
+                <dd>Experience</dd>
+              </div>
+              <div class="stats__divider" role="presentation"></div>
+              <div class="stats__item">
+                <dt>250+</dt>
+                <dd>Projects completed</dd>
+              </div>
+              <div class="stats__divider" role="presentation"></div>
+              <div class="stats__item">
+                <dt>58</dt>
+                <dd>Happy clients</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero__media" aria-hidden="true">
+            <div class="hero__image"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container about__inner">
+          <div class="about__media" aria-hidden="true">
+            <div class="about__photo"></div>
+            <ul class="social social--vertical" aria-label="Social profiles">
+              <li><a class="social__link" href="#" aria-label="Instagram"></a></li>
+              <li><a class="social__link" href="#" aria-label="Dribbble"></a></li>
+              <li><a class="social__link" href="#" aria-label="LinkedIn"></a></li>
+              <li><a class="social__link social__link--primary" href="#" aria-label="Twitter"></a></li>
+              <li><a class="social__link" href="#" aria-label="Behance"></a></li>
+            </ul>
+          </div>
+          <div class="about__content">
+            <h2 class="section-title">I am a professional user experience designer</h2>
+            <p class="lead">
+              I design and develop services for customers, specialising in creating stylish, modern websites,
+              thoughtful web services, and high-performing online stores. My passion is crafting digital user
+              experiences that delight and deliver results.
+            </p>
+            <p class="lead">
+              From discovery workshops to polished deployment, I help teams transform complex challenges into simple,
+              human-centred solutions.
+            </p>
+            <div class="button-row">
+              <a class="button button--primary" href="#portfolio">My projects</a>
+              <a class="button button--ghost" href="#" download>Download CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="container process__layout">
+          <div class="process__intro">
+            <h2 class="section-title">Work process</h2>
+            <p class="lead">
+              Every engagement follows a transparent, collaborative workflow. We uncover insights, build momentum, and
+              deliver measurable outcomes together.
+            </p>
+            <p class="lead">
+              From research to launch, each phase has a clear purpose and defined deliverables.
+            </p>
+          </div>
+          <div class="process__grid">
+            <article class="card card--accent">
+              <div class="card__icon"></div>
+              <h3 class="card__title">1. Research</h3>
+              <p class="card__body">
+                Discovery sprints, interviews, and user research help us understand the problem space and opportunities.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon"></div>
+              <h3 class="card__title">2. Design</h3>
+              <p class="card__body">
+                Wireframes, design systems, and prototypes bring your vision to life with inclusive experiences.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon"></div>
+              <h3 class="card__title">3. Analyse</h3>
+              <p class="card__body">
+                Decisions are validated through usability testing, analytics, and iterative feedback loops.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon"></div>
+              <h3 class="card__title">4. Launch</h3>
+              <p class="card__body">
+                Deployment, documentation, and optimisation keep your product performing reliably at scale.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container services__layout">
+          <div class="services__intro">
+            <h2 class="section-title">What I do?</h2>
+            <p class="lead">
+              I collaborate with founders, product teams, and agencies to build digital products powered by insight,
+              strategy, and delightful design.
+            </p>
+            <p class="lead">
+              Whether you need a new product from scratch or want to elevate an existing experience, I’m ready to help.
+            </p>
+            <a class="button button--primary" href="#contact">Say hello!</a>
+          </div>
+          <div class="services__list">
+            <article class="service service--active">
+              <h3 class="service__title">User experience (UX)</h3>
+              <p class="service__body">
+                Experience audits, user journeys, personas, and rapid prototyping aligned with your goals.
+              </p>
+            </article>
+            <article class="service">
+              <h3 class="service__title">User interface (UI)</h3>
+              <p class="service__body">
+                High-fidelity design with scalable systems, accessible components, and motion guidance.
+              </p>
+            </article>
+            <article class="service">
+              <h3 class="service__title">Web development</h3>
+              <p class="service__body">
+                Production-ready front-end engineering with progressive enhancement and performance best practices.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">
+              A snapshot of recent engagements across SaaS, fintech, e-commerce, and enterprise platforms.
+            </p>
+          </header>
+          <div class="portfolio__grid">
+            <article class="project">
+              <div class="project__media"></div>
+              <div class="project__content">
+                <span class="project__meta">UI / UX design</span>
+                <h3 class="project__title">Product admin dashboard</h3>
+                <p class="project__body">
+                  A comprehensive analytics and operations dashboard for a fast-growing SaaS platform.
+                </p>
+                <a class="button button--ghost" href="#">Case study</a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__media"></div>
+              <div class="project__content">
+                <span class="project__meta">Product design</span>
+                <h3 class="project__title">Mobile banking redesign</h3>
+                <p class="project__body">
+                  A reimagined mobile experience that boosts conversion and user confidence for a fintech leader.
+                </p>
+                <a class="button button--ghost" href="#">Case study</a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__media"></div>
+              <div class="project__content">
+                <span class="project__meta">UX research</span>
+                <h3 class="project__title">Healthcare portal</h3>
+                <p class="project__body">
+                  Data-informed journeys that streamline care management for clinicians and patients alike.
+                </p>
+                <a class="button button--ghost" href="#">Case study</a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__media"></div>
+              <div class="project__content">
+                <span class="project__meta">Web development</span>
+                <h3 class="project__title">Premium retail e-commerce</h3>
+                <p class="project__body">
+                  Component-driven storefront with elevated brand storytelling and performance.
+                </p>
+                <a class="button button--ghost" href="#">Case study</a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__media"></div>
+              <div class="project__content">
+                <span class="project__meta">Design systems</span>
+                <h3 class="project__title">Enterprise component library</h3>
+                <p class="project__body">
+                  Modular design language that empowers distributed teams with a single source of truth.
+                </p>
+                <a class="button button--ghost" href="#">Case study</a>
+              </div>
+            </article>
+            <article class="project">
+              <div class="project__media"></div>
+              <div class="project__content">
+                <span class="project__meta">Product strategy</span>
+                <h3 class="project__title">AI knowledge platform</h3>
+                <p class="project__body">
+                  Facilitated zero-to-one discovery and MVP execution for a machine learning knowledge hub.
+                </p>
+                <a class="button button--ghost" href="#">Case study</a>
+              </div>
+            </article>
+          </div>
+          <div class="portfolio__cta">
+            <a class="button button--primary" href="#">More projects</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta-title">
+        <div class="container cta__inner">
+          <div>
+            <h2 class="cta__title" id="cta-title">Do you have a project idea? Let’s discuss!</h2>
+            <p class="cta__subtitle">
+              Share your goals and we’ll design a roadmap that delivers delightful, measurable impact.
+            </p>
+          </div>
+          <a class="button button--primary" href="#contact">Let’s work together</a>
+        </div>
+      </section>
+
+      <section class="blog" id="blog">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-title">Blog</h2>
+            <p class="section-subtitle">
+              Insights on design, research, and building resilient digital products.
+            </p>
+          </header>
+          <div class="blog__grid">
+            <article class="post">
+              <div class="post__media"></div>
+              <div class="post__content">
+                <p class="post__meta">22 Oct, 2023 · 246 comments</p>
+                <h3 class="post__title">Design critiques that build trust with stakeholders</h3>
+              </div>
+            </article>
+            <article class="post">
+              <div class="post__media"></div>
+              <div class="post__content">
+                <p class="post__meta">10 Sep, 2023 · 108 comments</p>
+                <h3 class="post__title">Applying Jobs to Be Done to accelerate discovery</h3>
+              </div>
+            </article>
+            <article class="post">
+              <div class="post__media"></div>
+              <div class="post__content">
+                <p class="post__meta">18 Aug, 2023 · 92 comments</p>
+                <h3 class="post__title">Prototype smarter: how to choose the right fidelity</h3>
+              </div>
+            </article>
+            <article class="post">
+              <div class="post__media"></div>
+              <div class="post__content">
+                <p class="post__meta">30 Jul, 2023 · 64 comments</p>
+                <h3 class="post__title">Design system governance for fast-moving teams</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients" id="clients">
+        <div class="container">
+          <header class="section-header section-header--center">
+            <h2 class="section-title">Happy clients</h2>
+            <p class="section-subtitle">
+              Collaborations with global brands and ambitious startups across industries.
+            </p>
+          </header>
+          <ul class="client-logos" aria-label="Client logos">
+            <li class="client-logos__item">Google</li>
+            <li class="client-logos__item">Dribbble</li>
+            <li class="client-logos__item">LinkedIn</li>
+            <li class="client-logos__item">Amazon</li>
+            <li class="client-logos__item">Medium</li>
+            <li class="client-logos__item">Spotify</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonial" id="testimonial">
+        <div class="container testimonial__inner">
+          <header class="section-header section-header--center">
+            <h2 class="section-title">Testimonial</h2>
+            <p class="section-subtitle">
+              Kind words from partners who value craft, clarity, and collaboration.
+            </p>
+          </header>
+          <blockquote class="quote">
+            <p>
+              “Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio
+              convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh.
+              Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.”
+            </p>
+            <footer class="quote__footer">
+              <span class="quote__author">Esther Howard</span>
+              <span class="quote__role">Managing Director, ABC Company</span>
+            </footer>
+          </blockquote>
+          <div class="pagination" aria-hidden="true">
+            <span class="pagination__dot pagination__dot--active"></span>
+            <span class="pagination__dot"></span>
+            <span class="pagination__dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact__inner">
+          <div class="contact__info">
+            <h2 class="section-title">Let’s discuss your project</h2>
+            <p class="lead">
+              Share your challenge and I’ll respond with a tailored approach, timeline, and next steps.
+            </p>
+            <div class="contact__cards">
+              <article class="info-card info-card--accent">
+                <div class="info-card__icon"></div>
+                <div>
+                  <h3 class="info-card__label">Address</h3>
+                  <p class="info-card__value">New Mexico 31134</p>
+                </div>
+              </article>
+              <article class="info-card">
+                <div class="info-card__icon"></div>
+                <div>
+                  <h3 class="info-card__label">Email</h3>
+                  <p class="info-card__value">mymail@mail.com</p>
+                </div>
+              </article>
+              <article class="info-card">
+                <div class="info-card__icon"></div>
+                <div>
+                  <h3 class="info-card__label">Call me</h3>
+                  <p class="info-card__value">00-1234 00000</p>
+                </div>
+              </article>
+            </div>
+            <ul class="social" aria-label="Social media">
+              <li><a class="social__link social__link--primary" href="#" aria-label="Instagram"></a></li>
+              <li><a class="social__link" href="#" aria-label="Dribbble"></a></li>
+              <li><a class="social__link" href="#" aria-label="Behance"></a></li>
+              <li><a class="social__link" href="#" aria-label="LinkedIn"></a></li>
+              <li><a class="social__link" href="#" aria-label="Twitter"></a></li>
+            </ul>
+          </div>
+          <form class="contact__form" action="#" method="post">
+            <p class="lead">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+            </p>
+            <label class="field">
+              <span class="field__label">Name*</span>
+              <input class="field__input" type="text" name="name" required />
+            </label>
+            <label class="field">
+              <span class="field__label">Email*</span>
+              <input class="field__input" type="email" name="email" required />
+            </label>
+            <label class="field">
+              <span class="field__label">Location</span>
+              <input class="field__input" type="text" name="location" />
+            </label>
+            <div class="field-group">
+              <label class="field">
+                <span class="field__label">Budget*</span>
+                <input class="field__input" type="text" name="budget" required />
+              </label>
+              <label class="field">
+                <span class="field__label">Subject*</span>
+                <input class="field__input" type="text" name="subject" required />
+              </label>
+            </div>
+            <label class="field">
+              <span class="field__label">Message*</span>
+              <textarea class="field__input field__input--textarea" name="message" rows="4" required></textarea>
+            </label>
+            <button class="button button--primary" type="submit">
+              Submit
+              <span class="button__icon" aria-hidden="true"></span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__inner">
+        <a class="logo logo--footer" href="#home">
+          <span class="logo__icon" aria-hidden="true">B</span>
+          <span class="logo__label">Brooklyn</span>
+        </a>
+        <nav class="footer-nav" aria-label="Footer">
+          <a class="footer-nav__link" href="#home">Home</a>
+          <a class="footer-nav__link" href="#about">About</a>
+          <a class="footer-nav__link" href="#services">Services</a>
+          <a class="footer-nav__link" href="#process">Process</a>
+          <a class="footer-nav__link" href="#portfolio">Portfolio</a>
+          <a class="footer-nav__link" href="#blog">Blog</a>
+          <a class="footer-nav__link" href="#contact">Contact</a>
+        </nav>
+        <p class="footer__copyright">Copyright © 2024 Picto.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
