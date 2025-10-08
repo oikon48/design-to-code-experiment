@@ -8,7 +8,7 @@ This project retrieves Figma design nodes and implements them using three differ
 
 - **Claude Code + MCP** - Implementation leveraging Claude and Model Context Protocol
 - **Codex + MCP** - Implementation combining Codex with MCP
-- **Kombai** - Implementation using Kombai (in preparation)
+- **Kombai** - Implementation using Kombai
 
 ## Project Structure
 
@@ -18,7 +18,8 @@ design-to-code-experiment/
 │   └── picto-portfolio/ # Next.js + React + Tailwind CSS
 ├── codex+mcp/           # Codex + MCP implementation
 │   └── app/             # Next.js + React
-├── kombai/              # Kombai implementation (in preparation)
+├── kombai/              # Kombai implementation
+│                        # Vite + React + MUI
 └── codex+mcp-bk/        # Backup
 ```
 

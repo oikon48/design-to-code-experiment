@@ -1,69 +1,69 @@
 # Picto Portfolio
 
-Figmaデザインから実装した、個人ポートフォリオサイトです。
+A personal portfolio website implemented from Figma designs.
 
-## 技術スタック
+## Tech Stack
 
-- **フレームワーク**: Next.js 15 (App Router)
-- **言語**: TypeScript
-- **スタイリング**: Tailwind CSS
-- **フォント**: Work Sans (Google Fonts)
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Font**: Work Sans (Google Fonts)
 
-## セクション構成
+## Section Overview
 
-1. **Header** - ナビゲーションメニュー
-2. **Hero** - メインビジュアルと自己紹介
-3. **Stats** - 実績統計（経験年数、プロジェクト数、クライアント数）
-4. **About** - 自己紹介詳細
-5. **Work Process** - 作業プロセス（4ステップ）
-6. **Portfolio** - プロジェクト一覧（6件）
-7. **Call to Action** - プロジェクト相談の呼びかけ
-8. **Blog** - ブログ記事一覧（4件）
-9. **What I do?** - サービス内容（3つ）
-10. **Happy Clients** - クライアントロゴ（6社）
-11. **Testimonial** - お客様の声
-12. **Contact** - お問い合わせフォーム
-13. **Footer** - フッター
+1. **Header** - Navigation menu
+2. **Hero** - Main visual and introduction
+3. **Stats** - Achievement statistics (years of experience, projects completed, clients served)
+4. **About** - Detailed self-introduction
+5. **Work Process** - Work process (4 steps)
+6. **Portfolio** - Project showcase (6 projects)
+7. **Call to Action** - Project consultation CTA
+8. **Blog** - Blog posts (4 articles)
+9. **What I do?** - Services offered (3 services)
+10. **Happy Clients** - Client logos (6 companies)
+11. **Testimonial** - Client testimonials
+12. **Contact** - Contact form
+13. **Footer** - Footer section
 
-## デザインシステム
+## Design System
 
-### カラーパレット
-- **Primary**: #A53DFF（紫）
-- **Gray**: 50〜900の階層
+### Color Palette
+- **Primary**: #A53DFF (Purple)
+- **Gray**: Scale from 50 to 900
 
-### タイポグラフィ
-- フォントファミリー: Work Sans
-- ウェイト: 400, 500, 600
+### Typography
+- Font Family: Work Sans
+- Weights: 400, 500, 600
 
-## 開発方法
+## Development
 
-### 依存関係のインストール
+### Install Dependencies
 
 \`\`\`bash
 npm install
 \`\`\`
 
-### 開発サーバーの起動
+### Start Development Server
 
 \`\`\`bash
 npm run dev
 \`\`\`
 
-ブラウザで [http://localhost:3000](http://localhost:3000) を開いて確認できます。
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
-### ビルド
+### Build
 
 \`\`\`bash
 npm run build
 \`\`\`
 
-### プロダクションサーバーの起動
+### Start Production Server
 
 \`\`\`bash
 npm start
 \`\`\`
 
-## プロジェクト構造
+## Project Structure
 
 \`\`\`
 picto-portfolio/
@@ -92,12 +92,12 @@ picto-portfolio/
 └── package.json
 \`\`\`
 
-## 注意事項
+## Notes
 
-- 画像はプレースホルダーになっています。実際の画像に置き換えてください。
-- フォームの送信処理は実装されていません。必要に応じてバックエンド連携を追加してください。
-- レスポンシブ対応は部分的です。モバイル対応が必要な場合は追加のブレークポイントを設定してください。
+- Images are placeholders. Replace them with actual images as needed.
+- Form submission functionality is not implemented. Add backend integration as needed.
+- Responsive design is partial. Add additional breakpoints for full mobile support if required.
 
-## ライセンス
+## License
 
-このプロジェクトは学習・デモ目的で作成されています。
+This project was created for learning and demonstration purposes.
