@@ -68,7 +68,29 @@ npm run dev
 
 ### Kombai (`kombai`)
 
-In preparation
+- **Build Tool**: Vite 6.2.0
+- **UI**: React 19
+- **Styling**: Material-UI (MUI) 7.3.4
+- **State Management**: Redux Toolkit
+- **Routing**: React Router 7.9.3
+- **Language**: TypeScript
+- **Main Features**:
+  - Navigation component
+  - Portfolio page
+  - Blog cards
+  - Project cards
+  - Service cards
+  - Stats cards
+  - Work process cards
+  - Contact info components
+
+#### Getting Started
+
+```bash
+cd kombai
+npm install
+npm run dev
+```
 
 ## Experiment Objectives
 
