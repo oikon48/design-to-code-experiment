@@ -1,0 +1,153 @@
+import { createTheme } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    mode: 'light',
+    primary: {
+      main: '#A53DFF',
+      contrastText: '#FFFFFF',
+    },
+    secondary: {
+      main: '#132238',
+      contrastText: '#FFFFFF',
+    },
+    text: {
+      primary: '#132238',
+      secondary: '#333333',
+      disabled: '#697484',
+    },
+    background: {
+      default: '#FFFFFF',
+      paper: '#FFFFFF',
+    },
+    grey: {
+      50: '#F0F1F3',
+      100: '#E6E8EB',
+      200: '#D1D5DB',
+      300: '#A5ACB5',
+      400: '#87909D',
+      500: '#697484',
+      600: '#556070',
+      700: '#424E60',
+      800: '#2B384C',
+      900: '#132238',
+    },
+    common: {
+      black: '#000000',
+      white: '#FFFFFF',
+    },
+    divider: '#E6E8EB',
+  },
+  typography: {
+    fontFamily: "'Work Sans', sans-serif",
+    fontSize: 16,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+    fontWeightBold: 600,
+    h1: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '72px',
+      fontWeight: 600,
+      lineHeight: '84px',
+    },
+    h2: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '48px',
+      fontWeight: 600,
+      lineHeight: '56px',
+    },
+    h3: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '38px',
+      fontWeight: 600,
+      lineHeight: '50px',
+    },
+    h4: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '32px',
+      fontWeight: 600,
+    },
+    h5: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '24px',
+      fontWeight: 600,
+      lineHeight: '24px',
+    },
+    h6: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '20px',
+      fontWeight: 600,
+    },
+    subtitle1: {
+      fontFamily: 'Poppins, sans-serif',
+      fontSize: '18px',
+      fontWeight: 500,
+      lineHeight: '26px',
+    },
+    subtitle2: {
+      fontFamily: 'Poppins, sans-serif',
+      fontSize: '16px',
+      fontWeight: 300,
+    },
+    body1: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '18px',
+      fontWeight: 400,
+      lineHeight: '24px',
+    },
+    body2: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '16px',
+      fontWeight: 400,
+    },
+    button: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '16px',
+      fontWeight: 600,
+      textTransform: 'none',
+    },
+    caption: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '14px',
+      fontWeight: 400,
+    },
+    overline: {
+      fontFamily: "'Work Sans', sans-serif",
+      fontSize: '12px',
+      fontWeight: 500,
+    },
+  },
+  shape: {
+    borderRadius: 8,
+  },
+  shadows: [
+    'none',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 24px 116px rgba(43, 56, 76, 0.09)',
+    '0px 32px 96px rgba(28, 25, 25, 0.16)',
+    '0px 36px 105px rgba(43, 56, 76, 0.10)',
+    '0px 59px 124px rgba(0, 0, 0, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+    '0px 12px 64px rgba(28, 25, 25, 0.12)',
+  ],
+});
+
+export default theme;
